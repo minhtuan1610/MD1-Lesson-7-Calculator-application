@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Calculator</h1>
+<div>
+    <label><input id="number1" placeholder="Enter first number" type="number"></label>
+    <label><input id="number2" placeholder="Enter second number" type="number"></label>
+</div>
+<br>
+<div>
+    <button onclick="basicCalculator(this.value)" value="+">Addition (+)</button>
+    <button onclick="basicCalculator(this.value)" value="-">Subtraction (-)</button>
+    <button onclick="basicCalculator(this.value)" value="*">Multiplication (*)</button>
+    <button onclick="basicCalculator(this.value)" value="/">Division (/)</button>
+</div>
+<p id="Result"></p>
+<script src="Basic-Calculator.js"></script>
+</body>
+</html>
